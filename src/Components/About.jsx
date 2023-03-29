@@ -21,24 +21,24 @@ function About() {
             </Box >
             <Box className='about-info'>
             <List spacing={3}>
-  <ListItem>
-    <ListIcon as={MdCheckCircle} color='#fb641b' />
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit
-  </ListItem>
-  <ListItem>
-    <ListIcon as={MdCheckCircle} color='#fb641b' />
-    Assumenda, quia temporibus eveniet a libero incidunt suscipit
-  </ListItem>
-  <ListItem>
-    <ListIcon as={MdCheckCircle} color='#fb641b' />
-    Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
-  </ListItem>
-  {/* You can also use custom icons from react-icons */}
-  <ListItem>
-    <ListIcon as={MdSettings} color='#fb641b' />
-    Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
-  </ListItem>
-</List>
+                <ListItem>
+                    <ListIcon as={MdCheckCircle} color='#fb641b' />
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </ListItem>
+                <ListItem>
+                    <ListIcon as={MdCheckCircle} color='#fb641b' />
+                    Assumenda, quia temporibus eveniet a libero incidunt suscipit
+                </ListItem>
+                <ListItem>
+                    <ListIcon as={MdCheckCircle} color='#fb641b' />
+                    Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
+                </ListItem>
+                {/* You can also use custom icons from react-icons */}
+                <ListItem>
+                    <ListIcon as={MdSettings} color='#fb641b' />
+                    Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
+                </ListItem>
+        </List>
             </Box>
         </Flex>
     </Box>

@@ -82,7 +82,7 @@ function Home() {
           />
         </Box>
         <Button
-          colorScheme="orange"
+          colorScheme="#fb641b"
           rightIcon={<AiOutlineEye color="white" className="icon" />}
           variant="solid"
           className="downloadBtn"
@@ -92,7 +92,7 @@ function Home() {
         <IconButton
           className="downloadBtn"
           //   variant='outline'
-          colorScheme="orange"
+          colorScheme="#fb641b"
           aria-label="Send email"
           icon={<BsDownload className="icon" />}
         />
