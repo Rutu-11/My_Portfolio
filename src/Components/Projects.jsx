@@ -9,29 +9,17 @@ function Projects() {
         <Heading as={'h1'}>
             Latest <span>Projects</span>
         </Heading>
-        <Grid templateColumns='repeat(1, 1fr)' gap={6} className='grid-container' h={'65%'} >
+        <Grid templateColumns='repeat(1, 1fr)' gap={6} className='grid-container'  >
         <Box>
-          <Box>
+            <Box>
             <img src={require("../utils/home1.png")} alt="spotify"  />
             <Box className='project-info'>
-               <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-               <Text>Spotify is a digital music service that gives you access to millions of songs.</Text>
-               <Text>It is a collaborative project of four members completed in five days.</Text>
-               <Text><b>Features: </b> Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</Text>
-               <Text><b>Techstack:</b> React, Redux, Chakra-UI, Styled-Component, Framer-motion</Text>
-               <Text><b>Areas of Responsibility:</b> 
-               
-               <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
-               <li>Added filter functionality, page linking, and animations.</li>
-      
-               </Text>
-            </Box>
-            </Box>
-            {/* buttons */}
-            <Box>
-                <IconButton
+            <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
+            <Text w="50%" m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
+        
+            <IconButton
                 variant="outline"
-                colorScheme="orange"
+                colorScheme="white"
                 aria-label="Send email"
                 icon={<BsGithub />}
                 onClick={() => {
@@ -41,38 +29,50 @@ function Projects() {
 
               <IconButton
                 variant="outline"
-                colorScheme="orange"
+                colorScheme="white"
                 aria-label="Send email"
                 icon={<AiOutlineEye />}
                 onClick={() => {
                   window.open("https://spotify-clone4me.netlify.app/", "_blank");
                 }}
               />
+               <Text w="50%" m={'auto'} fontSize='2xl'><b>It is a collaborative project of four members completed in five days.</b></Text>
             </Box>
+
+
+            </Box>
+            {/* buttons */}
+
+            <Box>
+                <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
+                <Flex >
+                  <Box w="50%" textAlign={'left'} marginRight={'30px'}>
+                  <Text><b>Features: </b> <br/> <li>Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</li></Text>
+                  <Text><b>Techstack:</b> <br/><li>React, Redux, Chakra-UI, Styled-Component, Framer-motion </li></Text>
+                  </Box>
+
+                  <Box  w="50%" textAlign={'left'}>
+                  <Text><b>Areas of Responsibility:</b> <br/>
+               
+                    <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
+                    <li>Added filter functionality, page linking, and animations.</li>
+                    </Text>
+                  </Box>
+                </Flex>     
+            </Box>
+
+            
         </Box>
-
-
         <Box>
+          <Box>
             <img src={require("../utils/Flipkart-clone.png")} alt="spotify"  />
             <Box className='project-info'>
-               <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-               <Text>Spotify is a digital music service that gives you access to millions of songs.</Text>
-               <Text>It is a collaborative project of four members completed in five days.</Text>
-               <Text><b>Features: </b> Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</Text>
-               <Text><b>Techstack:</b> React, Redux, Chakra-UI, Styled-Component, Framer-motion</Text>
-               <Text><b>Areas of Responsibility:</b> 
-               
-               <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
-               <li>Added filter functionality, page linking, and animations.</li>
-      
-               </Text>
-            </Box>
-           
-            {/* buttons */}
-            <Box>
-                <IconButton
+            <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
+            <Text w="50%" m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
+        
+            <IconButton
                 variant="outline"
-                colorScheme="orange"
+                colorScheme="white"
                 aria-label="Send email"
                 icon={<BsGithub />}
                 onClick={() => {
@@ -82,50 +82,34 @@ function Projects() {
 
               <IconButton
                 variant="outline"
-                colorScheme="orange"
+                colorScheme="white"
                 aria-label="Send email"
                 icon={<AiOutlineEye />}
                 onClick={() => {
                   window.open("https://spotify-clone4me.netlify.app/", "_blank");
                 }}
               />
+               <Text w="50%" m={'auto'} fontSize='2xl'><b>It is a collaborative project of four members completed in five days.</b></Text>
             </Box>
-        </Box>
+            </Box>
+            {/* buttons */}
+            <Box>
+                <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
+                <Flex >
+                  <Box w="50%" textAlign={'left'} marginRight={'30px'}>
+                  <Text><b>Features: </b> <br/> <li>Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</li></Text>
+                  <Text><b>Techstack:</b> <br/><li>React, Redux, Chakra-UI, Styled-Component, Framer-motion </li></Text>
+                  </Box>
 
-        <Box>
-          <Box>
-            <img src="https://tse1.mm.bing.net/th?id=OIP.1YM53mG10H_U25iPjop83QHaEo&pid=Api&P=0" alt=""  />
-            <Box className='project-info'>
-               <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-               <Text>Collaborative Project</Text>
-               <Text> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consequuntur. </Text>
+                  <Box  w="50%" textAlign={'left'}>
+                  <Text><b>Areas of Responsibility:</b> <br/>
+               
+                    <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
+                    <li>Added filter functionality, page linking, and animations.</li>
+                    </Text>
+                  </Box>
+                </Flex>     
             </Box>
-            </Box>
-            <h1>ii</h1>
-        </Box>
-
-        <Box>
-          <Box>
-            <img src="https://tse1.mm.bing.net/th?id=OIP.1YM53mG10H_U25iPjop83QHaEo&pid=Api&P=0" alt=""  />
-            <Box className='project-info'>
-               <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-               <Text>Collaborative Project</Text>
-               <Text> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consequuntur. </Text>
-            </Box>
-            </Box>
-            <h1>ii</h1>
-        </Box>
-
-        <Box>
-          <Box>
-            <img src="https://tse1.mm.bing.net/th?id=OIP.1YM53mG10H_U25iPjop83QHaEo&pid=Api&P=0" alt=""  />
-            <Box className='project-info'>
-               <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-               <Text>Collaborative Project</Text>
-               <Text> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consequuntur. </Text>
-            </Box>
-            </Box>
-            <h1>ii</h1>
         </Box>
 
         </Grid>
