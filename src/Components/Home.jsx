@@ -14,6 +14,8 @@ import { BsGithub, BsDownload } from "react-icons/bs";
 import { AiFillPhone, AiFillEye, AiOutlineEye } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+
+import resume from '../utils/Rutuja_Dhekolkar_Resume_29-03-2023-02-12-20.pdf';
 function Home() {
   const text = useTypewriter({
     words: ["Full Stack Web Developer"],
@@ -61,26 +63,28 @@ function Home() {
               window.open("https://github.com/Rutu-11", "_blank");
             }}
           />
+          <a href="tel:+917996314566">
           <IconButton
             variant="outline"
             colorScheme="orange"
             aria-label="Send email"
             icon={<AiFillPhone />}
-            onClick={() => {
-              window.open("https://www.google.com", "_blank");
-            }}
+            
           />
+          </a>
 
+          <a href="mailto:rutujadhekolkar97@gmail.com">
           <IconButton
             variant="outline"
             colorScheme="orange"
             aria-label="Send email"
             icon={<SiGmail />}
-            onClick={() => {
-              window.open("https://www.google.com", "_blank");
-            }}
+            
           />
+          </a>
         </Box>
+
+        <a href={resume}>
         <Button
           colorScheme="#fb641b"
           rightIcon={<AiOutlineEye color="white" className="icon" />}
@@ -89,6 +93,9 @@ function Home() {
         >
           Resume
         </Button>
+          </a>
+
+        <a href={resume} download='Resume' >
         <IconButton
           className="downloadBtn"
           //   variant='outline'
@@ -96,11 +103,12 @@ function Home() {
           aria-label="Send email"
           icon={<BsDownload className="icon" />}
         />
+        </a>
       </Box>
 
       <Flex className="home-image">
         <img
-          src="https://tse2.mm.bing.net/th?id=OIP.jryuUgIHWL-1FVD2ww8oWgHaHa&pid=Api&P=0"
+          src={require("../utils/mypic2.jpg")}
           alt=""
         />
       </Flex>

@@ -7,8 +7,8 @@
 }
 
 *{
-  /* background-color:#1f242d;
-  color:#fff; */
+  background-color:#1f242d;
+  color:#fff;
 
 }
 .navbar{
@@ -104,6 +104,7 @@
   position: relative;
   justify-content: space-between;
   align-items:center;
+  flex-wrap: wrap;
   height: 100vh;
   width: 100%;
   padding: 70px 10% 0;
@@ -225,8 +226,9 @@
 /* Image section */
 
 .home-image{
-  width : 350px;
-  height: 350px;
+  width : 380px;
+  height: 390px;
+  margin-right: 100px;
   border-radius: 50%;
   background-color:#fb641b;
   position: relative;
@@ -312,6 +314,7 @@
 .about-section{
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   
 }
 .about-img{
@@ -373,10 +376,10 @@ about-info ul li svg{
   text-align: center;
 }
 .skills-div div{
-  /* background-color:#e78466; */
+  background-color:#fff;
    /* background-image: linear-gradient(to right, #f68465 0%, #f9d423 100%);
    background-image: linear-gradient(to right, #efd75b 0%, #f67b58 100%); */
-   background: linear-gradient(to bottom, rgba(173, 176, 0, 0.5), rgba(239, 50, 8, 0.737)); 
+   background: linear-gradient(to bottom, rgba(232, 235, 20, 0.723), rgba(244, 42, 27, 0.745)); 
   color:#fff;
   flex-direction: column;
   cursor: pointer;
@@ -581,6 +584,10 @@ about-info ul li svg{
   margin: 50px;
 }
 
+.grid-container>div>div:nth-child(1) button svg{
+  background:transparent;
+}
+
 .grid-container>div>div:nth-child(1) button:hover{
   background-color:#fff;
   color:#fb641b;
@@ -599,6 +606,7 @@ about-info ul li svg{
 }
 .grid-container>div>div:first-child div{
   position: relative;
+  background: transparent;
   z-index: 3;
   color:#fff;
   opacity: 0;
@@ -607,13 +615,22 @@ about-info ul li svg{
 }
 
 .grid-container>div>div:first-child:hover div{
+  background: transparent;
   opacity: 1;
   transform: translateY(0px);
 }
+.grid-container>div>div:first-child div span, .grid-container>div>div:first-child b{
+  background: transparent;
+}
 .grid-container>div>div:nth-child(1)>div h2 {
+  background: transparent;
   margin-top:2% ;
 }
+.grid-container>div>div:nth-child(2) h2{
+  margin-bottom: 20px;
+}
 .grid-container>div>div:nth-child(2) h2 span,.grid-container>div>div:nth-child(2) b{
+  /* background: transparent; */
   color: #fb641b;
 }
 .grid-container>div>div:first-child div p{
@@ -621,6 +638,7 @@ about-info ul li svg{
   font-size: 15px;
   margin-top: 8px;
   margin-bottom: 20px;
+  background: transparent;
 }
 
 .grid-container>div>div:nth-child(2){

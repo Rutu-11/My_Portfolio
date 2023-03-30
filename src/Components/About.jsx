@@ -23,21 +23,37 @@ function About() {
             <List spacing={3}>
                 <ListItem>
                     <ListIcon as={MdCheckCircle} color='#fb641b' />
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    Good communication and teamwork skills, able to work effectively with others in a collaborative environment. Proficient in HTML, CSS, and JavaScript
                 </ListItem>
                 <ListItem>
                     <ListIcon as={MdCheckCircle} color='#fb641b' />
-                    Assumenda, quia temporibus eveniet a libero incidunt suscipit
+                    Strong ability to learn and adapt to new technologies quickly
                 </ListItem>
                 <ListItem>
                     <ListIcon as={MdCheckCircle} color='#fb641b' />
-                    Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
+                    Seeking new challenges to push limits and further develop skills
                 </ListItem>
                 {/* You can also use custom icons from react-icons */}
                 <ListItem>
-                    <ListIcon as={MdSettings} color='#fb641b' />
-                    Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
+                    <ListIcon as={MdCheckCircle} color='#fb641b' />
+                    Knowledge of database design and management
                 </ListItem>
+
+                <ListItem>
+                    <ListIcon as={MdCheckCircle} color='#fb641b' />
+                    Comfortable working in both front-end and back-end development environments
+                </ListItem>
+
+                <ListItem>
+                    <ListIcon as={MdCheckCircle} color='#fb641b' />
+                    Strong attention to detail and ability to write clean, efficient code
+                </ListItem>
+
+                <ListItem>
+                    <ListIcon as={MdCheckCircle} color='#fb641b' />
+                    Passionate about staying up-to-date with the latest web development trends and best practices
+                </ListItem>
+
         </List>
             </Box>
         </Flex>

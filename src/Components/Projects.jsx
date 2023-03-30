@@ -65,10 +65,10 @@ function Projects() {
         </Box>
         <Box>
           <Box>
-            <img src={require("../utils/Flipkart-clone.png")} alt="spotify"  />
+            <img src={require("../utils/Flipkart2.png")} alt="spotify"  />
             <Box className='project-info'>
-            <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-            <Text w="50%" m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
+            <Heading as={'h2'}>Flipkart <span>Clone</span> </Heading>
+            <Text w="50%" m={'auto'} fontSize='2xl' ><b> Flipkart is one of India’s leading e-commerce marketplaces.</b></Text>
         
             <IconButton
                 variant="outline"
@@ -76,7 +76,7 @@ function Projects() {
                 aria-label="Send email"
                 icon={<BsGithub />}
                 onClick={() => {
-                  window.open("https://github.com/Rutu-11/Spotify-clone", "_blank");
+                  window.open("https://github.com/Rutu-11/Flipkart-clone", "_blank");
                 }}
               />
 
@@ -86,26 +86,26 @@ function Projects() {
                 aria-label="Send email"
                 icon={<AiOutlineEye />}
                 onClick={() => {
-                  window.open("https://spotify-clone4me.netlify.app/", "_blank");
+                  window.open("https://flipkart-clone12.netlify.app/", "_blank");
                 }}
               />
-               <Text w="50%" m={'auto'} fontSize='2xl'><b>It is a collaborative project of four members completed in five days.</b></Text>
+               <Text w="50%" m={'auto'} fontSize='2xl'><b>It is a collaborative project of five members completed in five days.</b></Text>
             </Box>
             </Box>
             {/* buttons */}
             <Box>
-                <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
+                <Heading as={'h2'}>Flipkart <span>Clone</span> </Heading>
                 <Flex >
                   <Box w="50%" textAlign={'left'} marginRight={'30px'}>
-                  <Text><b>Features: </b> <br/> <li>Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</li></Text>
-                  <Text><b>Techstack:</b> <br/><li>React, Redux, Chakra-UI, Styled-Component, Framer-motion </li></Text>
+                  <Text><b>Features: </b> <br/> <li> Login/Logout, SignUp, Sort, Filter, cart.</li></Text>
+                  <Text><b>Techstack:</b> <br/><li>HTML, CSS, Javascript, Carousel </li></Text>
                   </Box>
 
                   <Box  w="50%" textAlign={'left'}>
                   <Text><b>Areas of Responsibility:</b> <br/>
                
-                    <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
-                    <li>Added filter functionality, page linking, and animations.</li>
+                    <li>Built product pages and product detail pages.</li>
+                    <li>Added sort And filter functionality and page linking.</li>
                     </Text>
                   </Box>
                 </Flex>     
