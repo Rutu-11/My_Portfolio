@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React, { } from "react";
 import {
   Flex,
-  Spacer,
   Heading,
   Button,
   Box,
@@ -11,11 +10,9 @@ import {
 import { GrLinkedin } from "react-icons/gr";
 import { SiGmail } from "react-icons/si";
 import { BsGithub, BsDownload } from "react-icons/bs";
-import { AiFillPhone, AiFillEye, AiOutlineEye } from "react-icons/ai";
-import { Link, useNavigate } from "react-router-dom";
+import { AiFillPhone, AiOutlineEye } from "react-icons/ai";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import resume from '../utils/Rutuja_Dhekolkar_Resume';
 function Home() {
   const text = useTypewriter({
     words: ["Full Stack Web Developer"],
@@ -84,7 +81,7 @@ function Home() {
           </a>
         </Box>
 
-        <a href={resume}>
+    
         <Button
           colorScheme="#fb641b"
           rightIcon={<AiOutlineEye color="white" className="icon" />}
@@ -93,17 +90,15 @@ function Home() {
         >
           Resume
         </Button>
-          </a>
+         
 
-        <a href={resume} download='Resume' >
         <IconButton
           className="downloadBtn"
-          //   variant='outline'
           colorScheme="#fb641b"
           aria-label="Send email"
           icon={<BsDownload className="icon" />}
         />
-        </a>
+       
       </Box>
 
       <Flex className="home-image">
