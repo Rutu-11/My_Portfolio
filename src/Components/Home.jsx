@@ -106,7 +106,7 @@ function Home() {
 
       <Flex className="home-image">
         <img
-          src={require("../utils/mypic2.jpg")}
+          src={require("../utils/Rutu6.png")}
           alt=""
         />
       </Flex>
