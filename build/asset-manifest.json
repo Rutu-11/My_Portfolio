@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b88e01c2.css",
+    "main.js": "/static/js/main.7f327b2a.js",
+    "static/media/home1.png": "/static/media/home1.b461fa5b3f0ce3a96dcc.png",
+    "static/media/Flipkart2.png": "/static/media/Flipkart2.c354087c5862c4a77f8c.png",
+    "static/media/Rutuja_Dhekolkar_Resume_29-03-2023-02-12-20.pdf": "/static/media/Rutuja_Dhekolkar_Resume_29-03-2023-02-12-20.07880364769dd855b81c.pdf",
+    "static/media/mypic2.jpg": "/static/media/mypic2.848a3f90f71c638a5711.jpg",
+    "index.html": "/index.html",
+    "main.b88e01c2.css.map": "/static/css/main.b88e01c2.css.map",
+    "main.7f327b2a.js.map": "/static/js/main.7f327b2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b88e01c2.css",
+    "static/js/main.7f327b2a.js"
+  ]
+}

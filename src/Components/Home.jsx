@@ -15,7 +15,7 @@ import { AiFillPhone, AiFillEye, AiOutlineEye } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import resume from '../utils/Rutuja_Dhekolkar_Resume_29-03-2023-02-12-20.pdf';
+import resume from '../utils/Rutuja_Dhekolkar_Resume';
 function Home() {
   const text = useTypewriter({
     words: ["Full Stack Web Developer"],

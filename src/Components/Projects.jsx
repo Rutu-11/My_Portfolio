@@ -65,7 +65,7 @@ function Projects() {
         </Box>
         <Box>
           <Box>
-            <img src={require("../utils/Flipkart2.png")} alt="spotify"  />
+            <img src={require("../utils/flipkart3.png")} alt="spotify"  />
             <Box className='project-info'>
             <Heading as={'h2'}>Flipkart <span>Clone</span> </Heading>
             <Text w="50%" m={'auto'} fontSize='2xl' ><b> Flipkart is one of India’s leading e-commerce marketplaces.</b></Text>
