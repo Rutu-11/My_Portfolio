@@ -13,6 +13,8 @@ import { BsGithub, BsDownload } from "react-icons/bs";
 import { AiFillPhone, AiOutlineEye } from "react-icons/ai";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+import resume from '../utils/Rutuja_Dhekolkar_Resume.pdf';
+
 function Home() {
   const text = useTypewriter({
     words: ["Full Stack Web Developer"],
@@ -81,7 +83,7 @@ function Home() {
           </a>
         </Box>
 
-    
+        <a href={resume}>
         <Button
           colorScheme="#fb641b"
           rightIcon={<AiOutlineEye color="white" className="icon" />}
@@ -90,15 +92,16 @@ function Home() {
         >
           Resume
         </Button>
+        </a>
          
-
+        <a href={resume} download="Resume" >
         <IconButton
           className="downloadBtn"
           colorScheme="#fb641b"
           aria-label="Send email"
           icon={<BsDownload className="icon" />}
         />
-       
+       </a>
       </Box>
 
       <Flex className="home-image">
