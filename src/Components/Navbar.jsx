@@ -1,24 +1,86 @@
-import React from 'react'
-import { Flex, Spacer, Heading, Button ,Box} from '@chakra-ui/react'
-import { Link } from 'react-router-dom'
+import React, { useRef } from "react";
+import {
+  Flex,
+  Spacer,
+  Heading,
+  Button,
+  Box,
+  IconButton,
+} from "@chakra-ui/react";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 function Navbar() {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("rsponsive_navbar");
+  };
+
   return (
-    <Flex justify={'space-between'} alignItems='center' className='navbar' >
-        <Heading as='h1' size='xl' noOfLines={1} className='heading' >RUTU<span>JA</span> </Heading>
-        <Spacer/>
-        <Flex className='innerNavDiv' >
-        <Box><Link to='/'className='link'  >Home</Link></Box>
+    <Flex className="navbar">
+      <Heading as="h1" size="xl" className="heading">
+        RUTU<span>JA</span>{" "}
+      </Heading>
+      {/* <Spacer/> */}
+      <Flex className="innerNavDiv" ref={navRef}>
+        <Box onClick={showNavbar}>
+          <Link to="/" className="link">
+            Home
+          </Link>
+        </Box>
 
-       <Box><Link to='/about' className='link'>About</Link></Box>
+        <Box onClick={showNavbar}>
+          <Link to="/about" className="link">
+            About
+          </Link>
+        </Box>
 
-       <Box><Link to='/skills' className='link'>Skills</Link></Box>
+        <Box onClick={showNavbar}>
+          <Link to="/skills" className="link">
+            Skills
+          </Link>
+        </Box>
 
-       <Box><Link to='/projects' className='link'>Projects</Link></Box>
-       
-       <Box><Link to='/contact' className='link'>Contact</Link></Box>
-        </Flex>
+        <Box onClick={showNavbar}>
+          <Link to="/projects" className="link">
+            Projects
+          </Link>
+        </Box>
+
+        <Box onClick={showNavbar}>
+          <Link to="/contact" className="link">
+            Contact
+          </Link>
+        </Box>
+        {/* <FaBars/> */}
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes/>
+        </button>
+
+        {/* <IconButton
+            variant="outline"
+            colorScheme="orange"
+            aria-label="Send email"
+            className='nav-btn nav-close-btn'
+            onClick={showNavbar}
+            icon={<FaTimes/>}
+            
+          />
+          <IconButton
+            variant="outline"
+            colorScheme="orange"
+            aria-label="Send email"
+            className='nav-btn'
+            onClick={showNavbar}
+            icon={<FaBars/>}
+            
+          /> */}
+      </Flex>
+      <button className="nav-btn" onClick={showNavbar}>
+          <FaBars/>
+        </button>
     </Flex>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

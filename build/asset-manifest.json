@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.b88e01c2.css",
-    "main.js": "/My_Portfolio/static/js/main.9fe545e0.js",
+    "main.css": "/My_Portfolio/static/css/main.000e8c81.css",
+    "main.js": "/My_Portfolio/static/js/main.2f3d64d3.js",
+    "static/media/Rutu6.png": "/My_Portfolio/static/media/Rutu6.45e43a185c555e701e05.png",
     "static/media/flipkart3.png": "/My_Portfolio/static/media/flipkart3.f615ea6f0b4846b16d4e.png",
     "static/media/home1.png": "/My_Portfolio/static/media/home1.b461fa5b3f0ce3a96dcc.png",
     "static/media/Rutuja_Dhekolkar_Resume.pdf": "/My_Portfolio/static/media/Rutuja_Dhekolkar_Resume.7b9e9b2080683c973c35.pdf",
-    "static/media/mypic2.jpg": "/My_Portfolio/static/media/mypic2.848a3f90f71c638a5711.jpg",
     "index.html": "/My_Portfolio/index.html",
-    "main.b88e01c2.css.map": "/My_Portfolio/static/css/main.b88e01c2.css.map",
-    "main.9fe545e0.js.map": "/My_Portfolio/static/js/main.9fe545e0.js.map"
+    "main.000e8c81.css.map": "/My_Portfolio/static/css/main.000e8c81.css.map",
+    "main.2f3d64d3.js.map": "/My_Portfolio/static/js/main.2f3d64d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.b88e01c2.css",
-    "static/js/main.9fe545e0.js"
+    "static/css/main.000e8c81.css",
+    "static/js/main.2f3d64d3.js"
   ]
 }

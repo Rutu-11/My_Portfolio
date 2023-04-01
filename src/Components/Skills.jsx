@@ -3,7 +3,7 @@ import { Box, Flex, Heading , Text} from "@chakra-ui/react";
 function Skills() {
   return (
     <Box className="skills-container">
-    <Heading as={'h1'}>My <span>Skills</span> </Heading>
+    <Heading as={'h1'}>MY <span> TECHNICAL</span> SKILLS </Heading>
     <Flex className="skills-div">
       
     <Flex>

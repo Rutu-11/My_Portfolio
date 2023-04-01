@@ -7,15 +7,15 @@ function Projects() {
   return (
     <Box className='projects-container'>
         <Heading as={'h1'}>
-            Latest <span>Projects</span>
+            LATEST <span>PROJECTS</span>
         </Heading>
-        <Grid templateColumns='repeat(1, 1fr)' gap={6} className='grid-container'  >
+        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(1, 1fr)','repeat(2, 1fr)']} gap={6} className='grid-container'  >
         <Box>
             <Box>
             <img src={require("../utils/home1.png")} alt="spotify"  />
             <Box className='project-info'>
-            <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-            <Text w="50%" m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
+            <Heading as={'h4'}>Spotify <span>Clone</span> </Heading>
+            <Text  m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
         
             <IconButton
                 variant="outline"
@@ -36,7 +36,7 @@ function Projects() {
                   window.open("https://spotify-clone4me.netlify.app/", "_blank");
                 }}
               />
-               <Text w="50%" m={'auto'} fontSize='2xl'><b>It is a collaborative project of four members completed in five days.</b></Text>
+              
             </Box>
 
 
@@ -44,32 +44,34 @@ function Projects() {
             {/* buttons */}
 
             <Box>
-                <Heading as={'h2'}>Spotify <span>Clone</span> </Heading>
-                <Flex >
-                  <Box w="50%" textAlign={'left'} marginRight={'30px'}>
-                  <Text><b>Features: </b> <br/> <li>Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</li></Text>
-                  <Text><b>Techstack:</b> <br/><li>React, Redux, Chakra-UI, Styled-Component, Framer-motion </li></Text>
+                <Heading as={'h4'}>Spotify <span>Clone</span> </Heading>
+                <Box >
+                  <Box  textAlign={'left'} >
+                  <Text><b>Features:  </b>  Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</Text>
+                  <Text><b>Techstack: </b> React, Redux, Chakra-UI, Styled-Component, Framer-motion </Text>
                   </Box>
 
-                  <Box  w="50%" textAlign={'left'}>
+                  <Box  textAlign={'left'}>
                   <Text><b>Areas of Responsibility:</b> <br/>
                
                     <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
                     <li>Added filter functionality, page linking, and animations.</li>
                     </Text>
                   </Box>
-                </Flex>     
+                  
+                </Box>  
+                <Text  m={'auto'} fontSize='2xl'><b>It is a collaborative project of four members completed in five days.</b></Text>   
             </Box>
 
             
         </Box>
+
         <Box>
           <Box>
-            <img src={require("../utils/flipkart3.png")} alt="spotify"  />
+            <img src={require("../utils/Flipkart-clone.png")} alt="spotify"  />
             <Box className='project-info'>
-            <Heading as={'h2'}>Flipkart <span>Clone</span> </Heading>
-            <Text w="50%" m={'auto'} fontSize='2xl' ><b> Flipkart is one of India’s leading e-commerce marketplaces.</b></Text>
-        
+            <Heading as={'h4'}>Flipkart <span>Clone</span> </Heading>
+            <Text m={'auto'} fontSize='2xl' ><b> Flipkart is one of India’s leading e-commerce marketplaces.</b></Text> 
             <IconButton
                 variant="outline"
                 colorScheme="white"
@@ -89,26 +91,28 @@ function Projects() {
                   window.open("https://flipkart-clone12.netlify.app/", "_blank");
                 }}
               />
-               <Text w="50%" m={'auto'} fontSize='2xl'><b>It is a collaborative project of five members completed in five days.</b></Text>
+               
             </Box>
             </Box>
             {/* buttons */}
             <Box>
-                <Heading as={'h2'}>Flipkart <span>Clone</span> </Heading>
-                <Flex >
-                  <Box w="50%" textAlign={'left'} marginRight={'30px'}>
-                  <Text><b>Features: </b> <br/> <li> Login/Logout, SignUp, Sort, Filter, cart.</li></Text>
-                  <Text><b>Techstack:</b> <br/><li>HTML, CSS, Javascript, Carousel </li></Text>
+                <Heading as={'h4'}>Flipkart <span>Clone</span> </Heading>
+                <Box >
+                  <Box textAlign={'left'} >
+                  <Text><b>Features: </b>  Login/Logout, SignUp, Sort, Filter, cart.</Text>
+                  <Text><b>Techstack:</b> HTML, CSS, Javascript, Carousel </Text>
                   </Box>
 
-                  <Box  w="50%" textAlign={'left'}>
+                  <Box  textAlign={'left'}>
                   <Text><b>Areas of Responsibility:</b> <br/>
                
                     <li>Built product pages and product detail pages.</li>
                     <li>Added sort And filter functionality and page linking.</li>
                     </Text>
                   </Box>
-                </Flex>     
+                </Box>
+                    
+                <Text  m={'auto'} fontSize='2xl'><b>It is a collaborative project of five members completed in five days.</b></Text>
             </Box>
         </Box>
 
