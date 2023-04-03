@@ -9,7 +9,7 @@ function Projects() {
         <Heading as={'h1'}>
             LATEST <span>PROJECTS</span>
         </Heading>
-        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(1, 1fr)','repeat(2, 1fr)']} gap={6} className='grid-container'  >
+        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(2, 1fr)','repeat(2, 1fr)']} gap={6} className='grid-container'  >
         <Box>
             <Box>
             <img src={require("../utils/home1.png")} alt="spotify"  />
@@ -56,6 +56,7 @@ function Projects() {
                
                     <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
                     <li>Added filter functionality, page linking, and animations.</li>
+                    
                     </Text>
                   </Box>
                   
@@ -99,7 +100,7 @@ function Projects() {
                 <Heading as={'h4'}>Flipkart <span>Clone</span> </Heading>
                 <Box >
                   <Box textAlign={'left'} >
-                  <Text><b>Features: </b>  Login/Logout, SignUp, Sort, Filter, cart.</Text>
+                  <Text><b>Features: </b>  Login/Logout, SignUp, Sort, Filter, cart and payment functionality has been implemented. .</Text>
                   <Text><b>Techstack:</b> HTML, CSS, Javascript, Carousel </Text>
                   </Box>
 
@@ -108,6 +109,7 @@ function Projects() {
                
                     <li>Built product pages and product detail pages.</li>
                     <li>Added sort And filter functionality and page linking.</li>
+                    <li>Bulit Profile page </li>
                     </Text>
                   </Box>
                 </Box>
