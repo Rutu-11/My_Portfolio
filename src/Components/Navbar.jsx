@@ -15,18 +15,28 @@ function Navbar() {
   const showNavbar = () => {
     navRef.current.classList.toggle("rsponsive_navbar");
   };
-
+  (window).scroll(function(){
+    if ((window).scrollTop() >= 30) {
+       ('header').addClass('shadow-header');
+    }
+    else {
+       ('header').removeClass('shadow-header');
+    }
+});
   return (
-    <Flex className="navbar">
+    <Flex className="navbar" >
       <Heading as="h1" size="xl" className="heading">
         RUTU<span>JA</span>{" "}
       </Heading>
       {/* <Spacer/> */}
       <Flex className="innerNavDiv" ref={navRef}>
         <Box onClick={showNavbar}>
+          {/* <Box> */}
           <Link to="/" className="link">
             Home
           </Link>
+          {/* </Box> */}
+          
         </Box>
 
         <Box onClick={showNavbar}>
