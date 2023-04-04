@@ -58,7 +58,7 @@
   margin: 0 2rem;
   padding: 20px 0;
   background-color:transparent;
-  color:var(--secondaryColor);
+  color:#fff;
   text-decoration: none;
 }
 .innerNavDiv div{
@@ -72,12 +72,12 @@
  .innerNavDiv>div:hover{
   border-radius:20px;
   box-shadow:0 0 24px #fb641b;
-  color: var(--textColor);
+  color:  #fb641b;
   transition: 800ms linear; 
   transform: scale(1.1);
 }
 .innerNavDiv>div>a:hover{
-  color: var(--textColor);
+  color:  #fb641b;
   transition: 800ms linear; 
   transform: scale(1.1);
 
@@ -115,6 +115,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 1.5rem;
+    color:#eee;
     background-color:var(--mainColor);
     transition: 1s;
     transform: translateY(-100vh);
@@ -172,8 +173,8 @@
 }
 
 
-.innerNavDiv div a:active, .innerNavDiv div  a:focus{
-  color:var(--textColor);
+.innerNavDiv div a:active, .innerNavDiv div a:focus{
+  color: #fb641b;
 } 
 
 
@@ -583,11 +584,12 @@ about-info ul li svg{
 }
 .my-record>div{
   box-shadow: 0 0 24px #fb641b;
-  padding: 10px 15px;
+  padding: 20px 30px;
   border-radius:15px;
 }
 .my-record>div h2{
   color:#fb641b;
+  margin-bottom: 5px;
 }
 .my-record>div p{
   font-size: 18px;
@@ -598,7 +600,7 @@ about-info ul li svg{
 .projects-container{
   position: relative;
   /* height: 100vh; */
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100%;
   padding: 10px 10% ;
   text-align: center;

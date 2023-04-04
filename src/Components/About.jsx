@@ -26,7 +26,7 @@ function About() {
         <Box className="about-info" data-aos="zoom-in">
           <List spacing={3}>
             <Text>
-              Hii!, My name is <span>Rutuja Dhekolkar</span>, an inagural
+              Hii, My name is <span>Rutuja Dhekolkar</span>, an inagural
               beneficery of
               <span> Mithali Raj Scholarchip</span>, for exemplary performance at
               masai and I'm a motivated and enthusiastic{" "}

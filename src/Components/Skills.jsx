@@ -169,13 +169,13 @@ function Skills() {
     </Flex>
 
       <Flex className="my-record">
-          <Box>
+          <Box data-aos="zoom-in">
             <Heading as={'h2'}>1,200+ <Text>Hours of Coding</Text> </Heading>
           </Box>
-          <Box>
+          <Box data-aos="zoom-in">
           <Heading as={'h2'}>1,000+ <Text>Hours of DSA</Text> </Heading>
           </Box>
-          <Box>
+          <Box data-aos="zoom-in">
           <Heading as={'h2'}>5+ <Text>Projects</Text> </Heading>
           </Box>
       </Flex>
