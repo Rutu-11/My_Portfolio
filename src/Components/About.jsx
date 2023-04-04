@@ -29,7 +29,7 @@ function About() {
               Hii, My name is <span>Rutuja Dhekolkar</span>, an inagural
               beneficery of
               <span> Mithali Raj Scholarchip</span>, for exemplary performance at
-             <span>Masai School</span> I'm a motivated and enthusiastic{" "}
+             <span> Masai School.</span>  I'm a motivated and enthusiastic{" "}
               <span> Full Stack Web Developer</span> with a keen interest in
               discovering various industry-standard tech stacks and
               environments. I have a strong proficiency in the{" "}
