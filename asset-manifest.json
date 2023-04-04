@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.989f6442.css",
-    "main.js": "/My_Portfolio/static/js/main.b7f2ff28.js",
+    "main.css": "/My_Portfolio/static/css/main.a74c51d7.css",
+    "main.js": "/My_Portfolio/static/js/main.af4a2fb2.js",
+    "static/media/youtube-clone.png": "/My_Portfolio/static/media/youtube-clone.d3cf143c9700ad781fc4.png",
     "static/media/home1.png": "/My_Portfolio/static/media/home1.b461fa5b3f0ce3a96dcc.png",
     "static/media/Flipkart-clone.png": "/My_Portfolio/static/media/Flipkart-clone.d215fff265ebaa0e7275.png",
     "static/media/Rutuja_Dhekolkar_Resume.pdf": "/My_Portfolio/static/media/Rutuja_Dhekolkar_Resume.2793c6efcaa3811dc54b.pdf",
+    "static/media/Portfolio.png": "/My_Portfolio/static/media/Portfolio.458d272a00066c95aec7.png",
+    "static/media/blumercury-clone.png": "/My_Portfolio/static/media/blumercury-clone.ad543e8df123af913000.png",
     "static/media/RutuLinkedIn.jpg": "/My_Portfolio/static/media/RutuLinkedIn.cd868269b56becb752ae.jpg",
     "index.html": "/My_Portfolio/index.html",
-    "main.989f6442.css.map": "/My_Portfolio/static/css/main.989f6442.css.map",
-    "main.b7f2ff28.js.map": "/My_Portfolio/static/js/main.b7f2ff28.js.map"
+    "main.a74c51d7.css.map": "/My_Portfolio/static/css/main.a74c51d7.css.map",
+    "main.af4a2fb2.js.map": "/My_Portfolio/static/js/main.af4a2fb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.989f6442.css",
-    "static/js/main.b7f2ff28.js"
+    "static/css/main.a74c51d7.css",
+    "static/js/main.af4a2fb2.js"
   ]
 }
