@@ -24,7 +24,7 @@ function Home() {
 
   return (
     <Flex
-    id="/home"
+      id="/home"
       className="home"
       // display={["block", "block", "block", "flex", "flex"]}
       justifyContent={[
@@ -36,15 +36,15 @@ function Home() {
       ]}
     >
       <Box
-      // marginBottom={'50px'}
+        // marginBottom={'50px'}
         className="home-content"
         // boxShadow={"0 0 20px #fb641b "}
-        textAlign={['center', 'center', 'center', 'left', 'left']}
-      // w={["65%", "65%", "65%", "400px", "auto"]}
-      // h={["60%", "60%", "65%", "400px", "auto"]}
+        textAlign={["center", "center", "center", "left", "left"]}
+        // w={["65%", "65%", "65%", "400px", "auto"]}
+        // h={["60%", "60%", "65%", "400px", "auto"]}
         // w={['550px','550px','550px','550px','550px']} h={['550px','550px','550px','550px','550px']}
       >
-        <Heading as="h3" className="heading" >
+        <Heading as="h3" className="heading">
           Hello, My name is
         </Heading>
         <Heading as="h1" className="heading">
@@ -55,9 +55,10 @@ function Home() {
           <Cursor />
         </Heading>
         <Text>
-          A passionate Full Stack Web Developer skilled in React JS, MongoDB and
-          some other libraries and frameworks. Eager to learn new technologies
-          and seek challenging opportunities for professional growth.
+          A passionate Full Stack Web Developer adept in React JS, Next JS,
+          Redux, Express, MongoDB and other libraries and frameworks. Eager to
+          learn new technologies and seek challenging opportunities for
+          professional growth.
         </Text>
 
         <Box className="social-media">
@@ -122,26 +123,25 @@ function Home() {
         </a>
       </Box>
 
-      <Box w={["250px", "350px", "450px", "420px", "480px"]}
+      <Box
+        w={["250px", "350px", "450px", "420px", "480px"]}
         h={["250px", "350px", "450px", "420px", "480px"]}
         // boxShadow={"0 0 20px #fb641b "}
-        margin={'auto'}
-        >
-      <Flex
-      
-            w="85%"
-            h={'85%'}
-           
-        className="home-image"
-        // borderRadius={'50%'}
-        // borderRadius={["50%", "50%", "50%", "50%", "50%"]}
+        margin={"auto"}
       >
-        <Image
-          // borderRadius={['sm', 'md', 'lg', 'full','full',]}
-          src={require("../utils/RutuLinkedIn.jpg")}
-          alt=""
-        />
-      </Flex>
+        <Flex
+          w="85%"
+          h={"85%"}
+          className="home-image"
+          // borderRadius={'50%'}
+          // borderRadius={["50%", "50%", "50%", "50%", "50%"]}
+        >
+          <Image
+            // borderRadius={['sm', 'md', 'lg', 'full','full',]}
+            src={require("../utils/RutuLinkedIn.jpg")}
+            alt=""
+          />
+        </Flex>
       </Box>
     </Flex>
   );
