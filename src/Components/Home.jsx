@@ -26,7 +26,7 @@ function Home() {
     <Flex
       id="/home"
       className="home"
-      // display={["block", "block", "block", "flex", "flex"]}
+      
       justifyContent={[
         "center",
         "center",
@@ -36,13 +36,11 @@ function Home() {
       ]}
     >
       <Box
-        // marginBottom={'50px'}
+       
         className="home-content"
-        // boxShadow={"0 0 20px #fb641b "}
+      
         textAlign={["center", "center", "center", "left", "left"]}
-        // w={["65%", "65%", "65%", "400px", "auto"]}
-        // h={["60%", "60%", "65%", "400px", "auto"]}
-        // w={['550px','550px','550px','550px','550px']} h={['550px','550px','550px','550px','550px']}
+        
       >
         <Heading as="h3" className="heading">
           Hello, My name is
@@ -124,20 +122,19 @@ function Home() {
       </Box>
 
       <Box
-        w={["250px", "350px", "450px", "420px", "480px"]}
-        h={["250px", "350px", "450px", "420px", "480px"]}
-        // boxShadow={"0 0 20px #fb641b "}
+        w={["250px", "350px", "450px", "420px", "470px"]}
+        h={["250px", "350px", "450px", "420px", "470px"]}
+        
         margin={"auto"}
       >
         <Flex
           w="85%"
           h={"85%"}
           className="home-image"
-          // borderRadius={'50%'}
-          // borderRadius={["50%", "50%", "50%", "50%", "50%"]}
+          
         >
           <Image
-            // borderRadius={['sm', 'md', 'lg', 'full','full',]}
+           
             src={require("../utils/RutuLinkedIn.jpg")}
             alt=""
           />

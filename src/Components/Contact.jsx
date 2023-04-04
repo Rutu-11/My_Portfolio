@@ -145,9 +145,7 @@ function Contact() {
               type="text"
               focusBorderColor="orange.600"
               placeholder="Enter Name"
-              // onChange={(e)=>{
-              //   setName(e.target.value);
-              // }}
+              
             />
             <FormLabel>Email address</FormLabel>
             <Input
@@ -156,9 +154,7 @@ function Contact() {
              name="email"
               focusBorderColor="orange.600"
               placeholder="Enter Email"
-              // onChange={(e)=>{
-              //   setEmail(e.target.value);
-              // }}
+              
             />
             <FormLabel>Contact No.</FormLabel>
             <Input
@@ -168,9 +164,7 @@ function Contact() {
               type="number"
               focusBorderColor="orange.600"
               placeholder="Enter Contact"
-              // onChange={(e)=>{
-              //   setPhone(e.target.value);
-              // }}
+              
             />
              <ValidationError 
         prefix="Email" 
@@ -184,9 +178,7 @@ function Contact() {
         name="message"
               placeholder="Here is a sample placeholder"
               focusBorderColor="orange.600"
-              // onChange={(e)=>{
-              //   setBody(e.target.value);
-              // }}
+              
             />
             <ValidationError 
         prefix="Message" 

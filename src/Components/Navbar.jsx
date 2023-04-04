@@ -11,14 +11,11 @@ import {Link} from 'react-scroll'
 // import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
   const [navbar, setNavbar] = useState(false);
   const navRef = useRef();
   const scrollRef = useRef(null)
   const showNavbar = () => {
     navRef.current.classList.toggle("rsponsive_navbar");
-    // scrollRef.current?.scrollIntoView({behavior:"smooth"})
   };
   (window).scroll(function(){
     if ((window).scrollTop() >= 30) {
@@ -47,11 +44,11 @@ window.addEventListener('scroll',changeBackgraound);
       <Spacer/>
       <Flex className="innerNavDiv" ref={navRef}  >
         <Box onClick={showNavbar}  >
-          {/* <Box> */}
+         
           <Link to="/home" className="link" smooth={true} offset={-100} duration={500}  >
             Home
           </Link>
-          {/* </Box> */}
+          
           
         </Box>
 
@@ -78,29 +75,12 @@ window.addEventListener('scroll',changeBackgraound);
             Contact
           </Link>
         </Box>
-        {/* <FaBars/> */}
+       
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes/>
         </button>
 
-        {/* <IconButton
-            variant="outline"
-            colorScheme="orange"
-            aria-label="Send email"
-            className='nav-btn nav-close-btn'
-            onClick={showNavbar}
-            icon={<FaTimes/>}
-            
-          />
-          <IconButton
-            variant="outline"
-            colorScheme="orange"
-            aria-label="Send email"
-            className='nav-btn'
-            onClick={showNavbar}
-            icon={<FaBars/>}
-            
-          /> */}
+        
       </Flex>
       <button className="nav-btn" onClick={showNavbar}>
           <FaBars/>

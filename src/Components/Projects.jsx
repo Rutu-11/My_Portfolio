@@ -64,7 +64,7 @@ function Projects() {
                   </Box>
                   
                 </Box>  
-                <Text  m={'auto'} fontSize='2xl'><b>It is a collaborative project of four members completed in five days.</b></Text>   
+                <Text  m={'auto'} fontSize='l'><b>It is a collaborative project of four members completed in five days.</b></Text>   
             </Box>
 
             
@@ -117,7 +117,7 @@ function Projects() {
                   </Box>
                 </Box>
                     
-                <Text  m={'auto'} fontSize='2xl'><b>It is a collaborative project of five members completed in five days.</b></Text>
+                <Text  m={'auto'} fontSize='l'><b>It is a collaborative project of five members completed in five days.</b></Text>
             </Box>
         </div>
 
@@ -153,13 +153,13 @@ function Projects() {
 
 
             </Box>
-            {/* buttons */}
+           
 
             <Box>
                 <Heading as={'h4'}>Youtube <span>Clone</span> </Heading>
                 <Box >
                   <Box  textAlign={'left'} >
-                  {/* <Text><b>Features:  </b>  Search, Filter, Infinite Scroll, Private Routes,Channel Details, Comments, Related Videos</Text> */}
+                 
                   <Text><b>Techstack: </b> React | Redux | Firebase Auth | YoutubeAPI | Chakra UI | Sass</Text>
                   </Box>
 
@@ -178,7 +178,7 @@ function Projects() {
                   </Box>
                   
                 </Box>  
-                <Text  m={'auto'} fontSize='2xl'><b>It is a individual project still in progress.</b></Text>   
+                <Text  m={'auto'} fontSize='l'><b>It is a individual project still in progress.</b></Text>   
             </Box>
 
             
@@ -216,13 +216,13 @@ function Projects() {
 
 
         </Box>
-        {/* buttons */}
+    
 
         <Box>
             <Heading as={'h4'}>Portfolio <span>Website</span> </Heading>
             <Box >
               <Box  textAlign={'left'} >
-              {/* <Text><b>Features:  </b>  Search, Filter, Infinite Scroll, Private Routes,Channel Details, Comments, Related Videos</Text> */}
+
               <Text><b>Techstack: </b> React | Redux | Chakra-UI | Framer-motion |</Text>
               </Box>
 
@@ -233,21 +233,19 @@ function Projects() {
                 <li>Added Scrolling functionality </li>
                 <li> added Animations on page load.</li>
                 <li>Used <i> email formspree </i> for contact page</li> <br />
-                {/* <li>View channel details, including videos and subscriber count</li>
-                <li>Leave comments on videos</li>
-                <li>Display related videos based on the current video being viewed</li> */}
+               
                 
                 </Text>
               </Box>
               
             </Box>  
-            <Text  m={'auto'} fontSize='2xl'><b>It is a individual project completed in 4 days.</b></Text>   
+            <Text  m={'auto'} fontSize='l'><b>It is a individual project completed in 4 days.</b></Text>   
         </Box>
 
         
     </div>
 
-        <div data-aos="zoom-in">
+        {/* <div data-aos="zoom-in">
             <Box>
             <img src={require("../utils/blumercury-clone.png")} alt="spotify"  />
             <Box className='project-info'>
@@ -278,8 +276,7 @@ function Projects() {
 
 
             </Box>
-            {/* buttons */}
-
+            
             <Box >
                 <Heading as={'h4'}>Bluemercury <span>Clone</span> </Heading>
                 <Box >
@@ -303,7 +300,7 @@ function Projects() {
             </Box>
 
             
-        </div>
+        </div> */}
           
         </Grid>
     </Box>
