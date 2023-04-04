@@ -24,6 +24,7 @@ function Home() {
 
   return (
     <Flex
+    id="/home"
       className="home"
       // display={["block", "block", "block", "flex", "flex"]}
       justifyContent={[
@@ -37,13 +38,13 @@ function Home() {
       <Box
       // marginBottom={'50px'}
         className="home-content"
-        boxShadow={"0 0 20px #fb641b "}
+        // boxShadow={"0 0 20px #fb641b "}
         textAlign={['center', 'center', 'center', 'left', 'left']}
       // w={["65%", "65%", "65%", "400px", "auto"]}
       // h={["60%", "60%", "65%", "400px", "auto"]}
         // w={['550px','550px','550px','550px','550px']} h={['550px','550px','550px','550px','550px']}
       >
-        <Heading as="h3" className="heading">
+        <Heading as="h3" className="heading" >
           Hello, My name is
         </Heading>
         <Heading as="h1" className="heading">
@@ -121,9 +122,9 @@ function Home() {
         </a>
       </Box>
 
-      <Box w={["250px", "300px", "350px", "400px", "420px"]}
-        h={["250px", "300px", "350px", "400px", "420px"]}
-        boxShadow={"0 0 20px #fb641b "}
+      <Box w={["250px", "350px", "450px", "420px", "480px"]}
+        h={["250px", "350px", "450px", "420px", "480px"]}
+        // boxShadow={"0 0 20px #fb641b "}
         margin={'auto'}
         >
       <Flex
@@ -133,7 +134,7 @@ function Home() {
            
         className="home-image"
         // borderRadius={'50%'}
-        borderRadius={["50%", "50%", "50%", "50%", "50%"]}
+        // borderRadius={["50%", "50%", "50%", "50%", "50%"]}
       >
         <Image
           // borderRadius={['sm', 'md', 'lg', 'full','full',]}

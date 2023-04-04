@@ -2,11 +2,12 @@ import React from "react";
 import { Box, Flex, Heading , Text} from "@chakra-ui/react";
 function Skills() {
   return (
-    <Box className="skills-container">
-    <Heading as={'h1'}>MY <span> TECHNICAL</span> SKILLS </Heading>
+    <Box className="skills-container" id="/skills" >
+    <Heading as={'h1'} data-aos="zoom-in">MY <span> TECHNICAL</span> SKILLS </Heading>
     <Flex className="skills-div">
       
-    <Flex>
+    <Flex data-aos="zoom-in">
+      
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
             alt="html5"
@@ -15,7 +16,7 @@ function Skills() {
         </Flex>
 
 
-        <Flex>
+        <Flex data-aos="zoom-in">
             <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
                 alt="css3"
@@ -23,7 +24,7 @@ function Skills() {
             <Text >CSS</Text>
         </Flex>
 
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
             alt="javascript"
@@ -32,7 +33,7 @@ function Skills() {
         </Flex>
 
 
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
             alt="java"
@@ -42,7 +43,7 @@ function Skills() {
         </Flex>
 
 
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
             alt="react"
@@ -52,7 +53,7 @@ function Skills() {
         </Flex>
       
          
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
             alt="redux"
@@ -60,7 +61,7 @@ function Skills() {
             <Text>Redux</Text>
         </Flex>
 
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
             alt="nodejs"
@@ -69,7 +70,7 @@ function Skills() {
         </Flex>
 
 
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
             alt="express"
@@ -77,7 +78,7 @@ function Skills() {
             <Text>Express</Text>
         </Flex>
 
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
             alt="mongodb"
@@ -85,16 +86,16 @@ function Skills() {
             <Text>MongoDB</Text>
         </Flex>
        
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
-            src="https://cms-assets.tutsplus.com/uploads/users/34/syllabuses/1228/preview_image/mongoose.jpg"
+            src="https://tse2.mm.bing.net/th?id=OIP.MtJGY28HC-xfJZt0l399lwAAAA&pid=Api&P=0"
             alt="mongoose"
             height={'150px'}
           />
             <Text>Mongoose</Text>
-        </Flex>
+        </Flex >
         
-        <Flex>
+        <Flex data-aos="zoom-in" >
         <img
             src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
             alt="nextjs"
@@ -103,7 +104,7 @@ function Skills() {
         </Flex>
 
             
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://avatars0.githubusercontent.com/u/54212428?s=400&v=4"
             alt="Chakra UI"
@@ -114,7 +115,7 @@ function Skills() {
         </Flex>  
 
           
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
             alt="sass"
@@ -122,7 +123,7 @@ function Skills() {
             <Text>Sass</Text>
         </Flex>
        
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
             alt="tailwind"
@@ -132,7 +133,7 @@ function Skills() {
         </Flex>
           
         
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg"
             alt="framer"
@@ -140,7 +141,7 @@ function Skills() {
             <Text>Framer</Text>
         </Flex>
           
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
             alt="git"
@@ -148,7 +149,7 @@ function Skills() {
             <Text>Git</Text>
         </Flex>
           
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
             alt="postman"
@@ -156,7 +157,7 @@ function Skills() {
             <Text>Postman</Text>
         </Flex> 
 
-        <Flex>
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
             alt="firebase"
@@ -166,6 +167,19 @@ function Skills() {
         </Flex>
        
     </Flex>
+
+      <Flex className="my-record">
+          <Box>
+            <Heading as={'h2'}>1,200+ <Text>Hours of Coding</Text> </Heading>
+          </Box>
+          <Box>
+          <Heading as={'h2'}>1,000+ <Text>Hours of DSA</Text> </Heading>
+          </Box>
+          <Box>
+          <Heading as={'h2'}>5+ <Text>Projects</Text> </Heading>
+          </Box>
+      </Flex>
+
     </Box>
   );
 }

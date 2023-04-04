@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import {
   Flex,
   Spacer,
@@ -7,13 +7,18 @@ import {
   Box,
   IconButton,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import {Link} from 'react-scroll'
+// import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 function Navbar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+  const [navbar, setNavbar] = useState(false);
   const navRef = useRef();
-
+  const scrollRef = useRef(null)
   const showNavbar = () => {
     navRef.current.classList.toggle("rsponsive_navbar");
+    // scrollRef.current?.scrollIntoView({behavior:"smooth"})
   };
   (window).scroll(function(){
     if ((window).scrollTop() >= 30) {
@@ -23,42 +28,53 @@ function Navbar() {
        ('header').removeClass('shadow-header');
     }
 });
+
+const changeBackgraound = ()=>{
+  // console.log(window.scrollY)
+  if(window.scrollY >=80){
+    setNavbar(true)
+  }
+  else{
+    setNavbar(false)
+  }
+}
+window.addEventListener('scroll',changeBackgraound);
   return (
-    <Flex className="navbar" >
+    <Flex className={navbar ? 'navbar active': 'navbar'} >
       <Heading as="h1" size="xl" className="heading">
         RUTU<span>JA</span>{" "}
       </Heading>
-      {/* <Spacer/> */}
-      <Flex className="innerNavDiv" ref={navRef}>
-        <Box onClick={showNavbar}>
+      <Spacer/>
+      <Flex className="innerNavDiv" ref={navRef}  >
+        <Box onClick={showNavbar}  >
           {/* <Box> */}
-          <Link to="/" className="link">
+          <Link to="/home" className="link" smooth={true} offset={-100} duration={500}  >
             Home
           </Link>
           {/* </Box> */}
           
         </Box>
 
-        <Box onClick={showNavbar}>
-          <Link to="/about" className="link">
+        <Box onClick={showNavbar} >
+          <Link to="/about" className="link" smooth={true} offset={-100} duration={500}>
             About
           </Link>
         </Box>
 
-        <Box onClick={showNavbar}>
-          <Link to="/skills" className="link">
+        <Box onClick={showNavbar}  >
+          <Link to="/skills" className="link" smooth={true} offset={-100} duration={500}>
             Skills
           </Link>
         </Box>
 
-        <Box onClick={showNavbar}>
-          <Link to="/projects" className="link">
+        <Box onClick={showNavbar}  >
+          <Link to="/projects" className="link"smooth={true} offset={-100} duration={500}>
             Projects
           </Link>
         </Box>
 
-        <Box onClick={showNavbar}>
-          <Link to="/contact" className="link">
+        <Box onClick={showNavbar}  >
+          <Link to="/contact" className="link" smooth={true} offset={-100} duration={500}>
             Contact
           </Link>
         </Box>

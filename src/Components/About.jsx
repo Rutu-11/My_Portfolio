@@ -11,19 +11,19 @@ import {
 
 function About() {
   return (
-    <Box className="aboutMe">
-      <Heading as="h1" className="heading">
+    <Box className="aboutMe" id="/about" >
+      <Heading as="h1" className="heading" data-aos="zoom-in" >
         LET ME <span>INTRODUCE </span>MYSELF
       </Heading>
 
-      <Flex className="about-section">
+      <Flex className="about-section" data-aos="zoom-in" >
         <Box className="about-img">
           <img
             src="https://cdn.dribbble.com/users/2726/screenshots/2362705/angulardribbble.gif"
             alt=""
           />
         </Box>
-        <Box className="about-info">
+        <Box className="about-info" data-aos="zoom-in">
           <List spacing={3}>
             <Text>
               Hii!, My name is <span>Rutuja Dhekolkar</span>, an inagural
