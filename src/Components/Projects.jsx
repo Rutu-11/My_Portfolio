@@ -1,16 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
 import {Box, Flex, Heading,Grid, GridItem, Text, Button , IconButton} from '@chakra-ui/react';
 import {BsGithub} from 'react-icons/bs';
 import {AiOutlineEye} from 'react-icons/ai';
+import Aos from 'aos';
 
 function Projects() {
+  // useEffect(()=>{
+  //   Aos.init({
+  //     offset:300,
+  //     duration:1000,
+  //   });
+  // },[])
   return (
     <Box className='projects-container'>
         <Heading as={'h1'}>
             LATEST <span>PROJECTS</span>
         </Heading>
         <Grid templateColumns={['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(2, 1fr)','repeat(2, 1fr)']} gap={6} className='grid-container'  >
-        <Box>
+        <Box data-aos="flip-right">
             <Box>
             <img src={require("../utils/home1.png")} alt="spotify"  />
             <Box className='project-info'>
@@ -43,7 +51,7 @@ function Projects() {
             </Box>
             {/* buttons */}
 
-            <Box>
+            <Box >
                 <Heading as={'h4'}>Spotify <span>Clone</span> </Heading>
                 <Box >
                   <Box  textAlign={'left'} >
@@ -67,7 +75,7 @@ function Projects() {
             
         </Box>
 
-        <Box>
+        <Box data-aos="flip-right">
           <Box>
             <img src={require("../utils/Flipkart-clone.png")} alt="spotify"  />
             <Box className='project-info'>
@@ -117,9 +125,9 @@ function Projects() {
                 <Text  m={'auto'} fontSize='2xl'><b>It is a collaborative project of five members completed in five days.</b></Text>
             </Box>
         </Box>
-<h1>iiiiiiiiii</h1>
-        <Box>
-        <h1>iiiiiiiiii</h1>
+
+        <Box data-aos="flip-right">
+        
             <Box>
             <img src={require("../utils/home1.png")} alt="spotify"  />
             <Box className='project-info'>
