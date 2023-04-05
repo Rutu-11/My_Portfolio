@@ -145,6 +145,7 @@ function Contact() {
               type="text"
               focusBorderColor="orange.600"
               placeholder="Enter Name"
+              required
               
             />
             <FormLabel>Email address</FormLabel>
@@ -154,7 +155,7 @@ function Contact() {
              name="email"
               focusBorderColor="orange.600"
               placeholder="Enter Email"
-              
+              required
             />
             <FormLabel>Contact No.</FormLabel>
             <Input
@@ -164,7 +165,7 @@ function Contact() {
               type="number"
               focusBorderColor="orange.600"
               placeholder="Enter Contact"
-              
+              required
             />
              <ValidationError 
         prefix="Email" 

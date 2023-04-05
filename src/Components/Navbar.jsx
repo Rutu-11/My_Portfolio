@@ -45,7 +45,7 @@ window.addEventListener('scroll',changeBackgraound);
       <Flex className="innerNavDiv" ref={navRef}  >
         <Box onClick={showNavbar}  >
          
-          <Link to="/home" className="link" smooth={true} offset={-100} duration={500}  >
+          <Link to="/home" className="link" smooth={true} offset={-100} duration={500} onClick={showNavbar}  >
             Home
           </Link>
           
@@ -53,25 +53,25 @@ window.addEventListener('scroll',changeBackgraound);
         </Box>
 
         <Box onClick={showNavbar} >
-          <Link to="/about" className="link" smooth={true} offset={-100} duration={500}>
+          <Link to="/about" className="link" smooth={true} offset={-100} duration={500} onClick={showNavbar}>
             About
           </Link>
         </Box>
 
         <Box onClick={showNavbar}  >
-          <Link to="/skills" className="link" smooth={true} offset={-100} duration={500}>
+          <Link to="/skills" className="link" smooth={true} offset={-100} duration={500} onClick={showNavbar}>
             Skills
           </Link>
         </Box>
 
         <Box onClick={showNavbar}  >
-          <Link to="/projects" className="link"smooth={true} offset={-100} duration={500}>
+          <Link to="/projects" className="link"smooth={true} offset={-100} duration={500} onClick={showNavbar}>
             Projects
           </Link>
         </Box>
 
         <Box onClick={showNavbar}  >
-          <Link to="/contact" className="link" smooth={true} offset={-100} duration={500}>
+          <Link to="/contact" className="link" smooth={true} offset={-100} duration={500} onClick={showNavbar} >
             Contact
           </Link>
         </Box>

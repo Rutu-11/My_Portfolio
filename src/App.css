@@ -10,15 +10,15 @@
 }
 
 :root{
-  --mainColor: #ef6b25c0;
+  --mainColor: #fb661bbd;
   --mainColorLight: #5767aa;
   --secondaryColor: #fb641b;
   --textColor: #eee;
 }
 
 *{
-  
-  background-color:#121212;
+  background-color:#1f242d;
+  /* background-color:#121212; */
   color:#fff;
 
 }
@@ -926,7 +926,7 @@ about-info ul li svg{
     font-weight: 300;
   }
   .home-content h3 span{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
   }
   .home-content p{

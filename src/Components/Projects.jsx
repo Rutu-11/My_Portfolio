@@ -160,14 +160,14 @@ function Projects() {
                 <Box >
                   <Box  textAlign={'left'} >
                  
-                  <Text><b>Techstack: </b> React | Redux | Firebase Auth | YoutubeAPI | Chakra UI | Sass</Text>
+                  <Text><b>Techstack: </b> React | Redux | Firebase | YoutubeAPI | Chakra UI | Sass</Text>
                   </Box>
 
                   <Box  textAlign={'left'}>
                   <Text><b>Features:</b> <br/>
                
                     <li>Search for videos</li>
-                    <li>Filter search results by relevance, upload date, view count, and rating</li>
+                    <li>Filter search results by relevance, view count, and rating</li>
                     <li>Infinite scroll to load more videos</li>
                     <li>Private routes for authenticated users</li>
                     <li>View channel details, including videos and subscriber count</li>
