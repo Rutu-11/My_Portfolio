@@ -53,10 +53,7 @@ function Home() {
           <Cursor />
         </Heading>
         <Text>
-          A passionate Full Stack Web Developer adept in React JS, Next JS,
-          Redux, Express, MongoDB and other libraries and frameworks. Eager to
-          learn new technologies and seek challenging opportunities for
-          professional growth.
+        A highly skilled and enthusiastic Full Stack Web Developer proficient in cutting-edge technologies such as React JS, Next JS, Redux, Express, MongoDB, Mongoose and other industry-leading libraries and frameworks. 
         </Text>
 
         <Box className="social-media">

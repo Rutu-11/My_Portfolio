@@ -29,25 +29,14 @@ function About() {
               Hii, My name is <span>Rutuja Dhekolkar</span>, an inagural
               beneficery of
               <span> Mithali Raj Scholarchip</span>, for exemplary performance at
-             <span> Masai School.</span>  I'm a motivated and enthusiastic{" "}
-              <span> Full Stack Web Developer</span> with a keen interest in
-              discovering various industry-standard tech stacks and
-              environments. I have a strong proficiency in the{" "}
-              <span>MERN stack </span>
-              and I'm eager to kickstart my career with an organization that
-              offers room for improvement and growth, both for myself and
-              towards achieving the company's objectives.
+             <span> Masai School</span>.  As a motivated and enthusiastic <span> Full Stack Web Developer</span>, I am driven by a relentless curiosity to explore diverse industry-standard tech stacks and environments to create innovative solutions. My expertise lies in the <span>MERN stack</span>, and I am driven to embark on my career journey with an organization that fosters continuous improvement and growth, both for myself and in achieving the company's objectives.
             </Text>
                 {/* <br /> */}
             <Text>
-              My love for coding began a year ago when I wrote my first
-              <span> "Hello world"</span> program, which was a thrilling
-              experience. Ever since then, I have been drawn towards creating
-              websites that are not only visually appealing but also fully
-              functional.
+            My unwavering passion for coding ignited few years ago when I wrote my first <span>Hello world</span>  program, and the thrill of creating something from scratch has since captivated me. Since then, I have been dedicated to crafting visually appealing and <span> fully functional websites</span> that deliver exceptional user experiences.
             </Text>
 
-            
+            <Text>From <span>Front-end design</span>  to <span>Back-end development</span>, I am well-versed in creating robust and scalable web applications that meet the needs of modern businesses and users alike.</Text>
           </List>
         </Box>
       </Flex>

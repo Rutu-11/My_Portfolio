@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Flex, Heading , Text} from "@chakra-ui/react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 function Skills() {
+  useEffect(()=>{
+    AOS.init({
+      offset: 120,
+      duration: 1000,
+    });
+    AOS.refreshHard();
+  },[])
   return (
     <Box className="skills-container" id="/skills" >
     <Heading as={'h1'} data-aos="zoom-in">MY <span> TECHNICAL</span> SKILLS </Heading>
@@ -123,7 +132,7 @@ function Skills() {
             <Text>Sass</Text>
         </Flex>
        
-        <Flex data-aos="zoom-in">
+        {/* <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
             alt="tailwind"
@@ -131,31 +140,31 @@ function Skills() {
         
             <Text>Telwind</Text>
         </Flex>
-          
+           */}
         
-        <Flex data-aos="zoom-in">
+        {/* <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg"
             alt="framer"
           />
             <Text>Framer</Text>
-        </Flex>
+        </Flex> */}
           
-        <Flex data-aos="zoom-in">
+        {/* <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
             alt="git"
           />
             <Text>Git</Text>
-        </Flex>
+        </Flex> */}
           
-        <Flex data-aos="zoom-in">
+        {/* <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
             alt="postman"
           />
             <Text>Postman</Text>
-        </Flex> 
+        </Flex>  */}
 
         <Flex data-aos="zoom-in">
         <img

@@ -29,16 +29,6 @@ function Contact() {
       return <p>Thanks for joining!</p>;
   }
 
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [phone, setPhone] = useState(0);
-  // const [body, setBody] = useState("");
-  // const form = useRef();
-
-  // const sendEmail = (e)=>{
-  //   e.preventDefault();
-  //     console.log(name,email,phone,body)
-  // }
   return (
     <Box className="contact" id="/contact" data-aos="zoom-in">
       <Heading as={"h1"} textAlign={"center"}>
