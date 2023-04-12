@@ -28,7 +28,7 @@ function About() {
             <Text>
               Hii, My name is <span>Rutuja Dhekolkar</span>, an inagural
               beneficery of
-              <span> Mithali Raj Scholarchip</span>, for exemplary performance at
+              <span> Mithali Raj Scholarship</span>, for exemplary performance at
              <span> Masai School</span>.  As a motivated and enthusiastic <span> Full Stack Web Developer</span>, I am driven by a relentless curiosity to explore diverse industry-standard tech stacks and environments to create innovative solutions. My expertise lies in the <span>MERN stack</span>, and I am driven to embark on my career journey with an organization that fosters continuous improvement and growth, both for myself and in achieving the company's objectives.
             </Text>
                 {/* <br /> */}
