@@ -108,7 +108,7 @@ function Home() {
           </Button>
         </a>
 
-        <a href={resume} download="Resume">
+        <a href={resume} download="Rutuja_Dhekolkar_Resume">
           <IconButton
             className="downloadBtn"
             colorScheme="#fb641b"
