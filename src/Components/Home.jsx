@@ -87,7 +87,7 @@ function Home() {
             />
           </a>
 
-          <a href="mailto:rutujadhekolkar97@gmail.com">
+          <a href="mailto:rutujadhekolkar97@gmail.com"  >
             <IconButton
               variant="outline"
               colorScheme="orange"
@@ -97,7 +97,7 @@ function Home() {
           </a>
         </Box>
 
-        <a href={resume}>
+        <a href={resume} target="_blank" >
           <Button
             colorScheme="#fb641b"
             rightIcon={<AiOutlineEye color="white" className="icon" />}

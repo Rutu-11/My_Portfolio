@@ -51,7 +51,7 @@ function Projects() {
                         aria-label="Send email"
                         icon={<AiOutlineEye />}
                         onClick={() => {
-                          window.open("https://spotify-clone4me.netlify.app/", "_blank");
+                          window.open("https://spotify-clone4uu.netlify.app/", "_blank");
                         }}
                       />
               </Flex>
@@ -83,62 +83,6 @@ function Projects() {
 
 
 {/* ! ***************************************************** */}
-        <div data-aos="zoom-in">
-          <Box>
-            <img src={require("../utils/Flipkart-clone.png")} alt="spotify"  />
-            <Box className='project-info'>
-            <Heading as={'h4'}>Flipkart <span>Clone</span> </Heading> <br />
-            <Text m={'auto'} fontSize='2xl' ><b> Flipkart is one of India’s leading e-commerce marketplaces.</b></Text> <br />
-            <Text  m={'auto'} fontSize='l'><b>Group Project :</b> 6 Collaborators </Text>   
-            <Text> <b>Duration :</b> 05 Days</Text>
-            
-            </Box>
-            </Box>
-            {/* buttons */}
-            <Box>
-            <Flex className="social-media" justify={'space-around'} alignItems={'center'} m={'-20px 0 -15px 0'} >
-            <IconButton
-                variant="outline"
-                colorScheme="white"
-                aria-label="Send email"
-                icon={<BsGithub />}
-                onClick={() => {
-                  window.open("https://github.com/Rutu-11/Flipkart-clone", "_blank");
-                }}
-              />
-
-                <Heading as={'h4'}>Flipkart <span>Clone</span> </Heading>
-
-              <IconButton
-                variant="outline"
-                colorScheme="white"
-                aria-label="Send email"
-                icon={<AiOutlineEye />}
-                onClick={() => {
-                  window.open("https://flipkart-clone12.netlify.app/", "_blank");
-                }}
-                />
-            </Flex>
-                
-                <Box >
-                  <Box textAlign={'left'} >
-                  <Text><b>Features: </b>  Login/Logout, SignUp, Sort, Filter, cart and payment functionality has been implemented. .</Text>
-                  <Text><b>Techstack:</b> HTML, CSS, Javascript, Carousel </Text>
-                  </Box>
-
-                  <Box  textAlign={'left'}>
-                  <Text><b>Areas of Responsibility:</b> <br/>
-               
-                    <li>Built product pages and product detail pages.</li>
-                    <li>Added sort And filter functionality and page linking.</li>
-                    <li>Bulit Profile page </li>
-                    </Text>
-                  </Box>
-                </Box>
-                    
-               
-            </Box>
-        </div>
 
         <div data-aos="zoom-in">
         
@@ -178,7 +122,7 @@ function Projects() {
                 aria-label="Send email"
                 icon={<AiOutlineEye />}
                 onClick={() => {
-                  window.open("https://rutu-11.github.io/You-Tube-Clone/", "_blank");
+                  window.open("https://my-you-tube-clone-1.web.app/", "_blank");
                 }}
               />
               </Flex>
@@ -278,6 +222,64 @@ function Projects() {
 
         
     </div>
+
+
+    <div data-aos="zoom-in">
+          <Box>
+            <img src={require("../utils/Flipkart-clone.png")} alt="spotify"  />
+            <Box className='project-info'>
+            <Heading as={'h4'}>Flipkart <span>Clone</span> </Heading> <br />
+            <Text m={'auto'} fontSize='2xl' ><b> Flipkart is one of India’s leading e-commerce marketplaces.</b></Text> <br />
+            <Text  m={'auto'} fontSize='l'><b>Group Project :</b> 6 Collaborators </Text>   
+            <Text> <b>Duration :</b> 05 Days</Text>
+            
+            </Box>
+            </Box>
+            {/* buttons */}
+            <Box>
+            <Flex className="social-media" justify={'space-around'} alignItems={'center'} m={'-20px 0 -15px 0'} >
+            <IconButton
+                variant="outline"
+                colorScheme="white"
+                aria-label="Send email"
+                icon={<BsGithub />}
+                onClick={() => {
+                  window.open("https://github.com/Rutu-11/Flipkart-clone", "_blank");
+                }}
+              />
+
+                <Heading as={'h4'}>Flipkart <span>Clone</span> </Heading>
+
+              <IconButton
+                variant="outline"
+                colorScheme="white"
+                aria-label="Send email"
+                icon={<AiOutlineEye />}
+                onClick={() => {
+                  window.open("https://flipkart-clone12.netlify.app/", "_blank");
+                }}
+                />
+            </Flex>
+                
+                <Box >
+                  <Box textAlign={'left'} >
+                  <Text><b>Features: </b>  Login/Logout, SignUp, Sort, Filter, cart and payment functionality has been implemented. .</Text>
+                  <Text><b>Techstack:</b> HTML, CSS, Javascript, Carousel </Text>
+                  </Box>
+
+                  <Box  textAlign={'left'}>
+                  <Text><b>Areas of Responsibility:</b> <br/>
+               
+                    <li>Built product pages and product detail pages.</li>
+                    <li>Added sort And filter functionality and page linking.</li>
+                    <li>Bulit Profile page </li>
+                    </Text>
+                  </Box>
+                </Box>
+                    
+               
+            </Box>
+        </div>
 
         {/* <div data-aos="zoom-in">
             <Box>
