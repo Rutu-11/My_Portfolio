@@ -51,15 +51,15 @@ function Projects() {
                         aria-label="Send email"
                         icon={<AiOutlineEye />}
                         onClick={() => {
-                          window.open("https://spotify-clone4uu.netlify.app/", "_blank");
+                          window.open("https://spotify-clone-1s.netlify.app/", "_blank");
                         }}
                       />
               </Flex>
                 
                 <Box >
                   <Box  textAlign={'left'} >
-                  <Text><b>Features:  </b>  Login/Logout, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</Text>
-                  <Text><b>Techstack: </b> React, Redux, Chakra-UI, Styled-Component, Framer-motion </Text>
+                  <Text><b>Features:  </b>  Login/Logout, Oauth, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</Text>
+                  <Text><b>Techstack: </b> React, Redux, Chakra-UI, Styled-Component, Framer-motion, Node Js, Express, Mongo DB, Mongoose </Text>
                   </Box>
 
                   <Box  textAlign={'left'}>
@@ -67,7 +67,7 @@ function Projects() {
                
                     <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
                     <li>Added filter functionality, page linking, and animations.</li>
-                    
+                    <li>Architected a powerful backend system for efficient data management</li>
                     </Text>
                   </Box>
                  
