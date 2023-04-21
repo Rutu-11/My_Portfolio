@@ -20,7 +20,7 @@ function Projects() {
             <Heading as={'h4'}>Spotify <span>Clone</span> </Heading> <br />
             <Text  m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
               <br/>
-            <Text  m={'auto'} fontSize='l'><b>Group Project :</b> 5 Collaborators </Text>   
+            <Text  m={'auto'} fontSize='l'><b>Group Project :</b> 4 Collaborators </Text>   
             <Text> <b>Duration :</b> 05 Days</Text>
            
             </Box>
