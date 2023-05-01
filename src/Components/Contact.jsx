@@ -162,12 +162,12 @@ function Contact() {
         field="email"
         errors={state.errors}
       />
-            <FormLabel>Email address</FormLabel>
+            <FormLabel>Message</FormLabel>
             <Textarea
            
            id="message"
         name="message"
-              placeholder="Here is a sample placeholder"
+              placeholder="Enter Your Message"
               focusBorderColor="orange.600"
               
             />

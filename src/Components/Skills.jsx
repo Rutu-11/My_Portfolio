@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 function Skills() {
   useEffect(()=>{
     AOS.init({
-      offset: 120,
+      offset: 100,
       duration: 1000,
     });
     AOS.refreshHard();
