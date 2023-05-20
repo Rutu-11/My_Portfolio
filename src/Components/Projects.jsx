@@ -12,77 +12,9 @@ function Projects() {
         <Heading as={'h1'} data-aos="zoom-in">
             LATEST <span>PROJECTS</span>
         </Heading>
+
         <Grid templateColumns={['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(2, 1fr)','repeat(2, 1fr)']} gap={6} className='grid-container'  >
-        <div data-aos="zoom-in">
-            <Box>
-            <img src={require("../utils/home1.png")} alt="spotify"  />
-            <Box className='project-info'>
-            <Heading as={'h4'}>Spotify <span>Clone</span> </Heading> <br />
-            <Text  m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
-              <br/>
-            <Text  m={'auto'} fontSize='l'><b>Group Project :</b> 4 Collaborators </Text>   
-            <Text> <b>Duration :</b> 05 Days</Text>
-           
-            </Box>
 
-
-            </Box>
-            {/* buttons */}
-
-            <Box >
-            <Flex className="social-media" justify={'space-around'} alignItems={'center'} m={'-20px 0 -15px 0'} >
-                    
-                    <IconButton
-                        variant="outline"
-                        colorScheme="white"
-                        aria-label="Send email"
-                        borderRadius={'2px'}
-          
-                        icon={<BsGithub />}
-                        
-                        onClick={() => {
-                          window.open("https://github.com/Rutu-11/Spotify-clone", "_blank");
-                        }}
-                      />
-                        <Heading as={'h4'}>Spotify <span>Clone</span> </Heading>
-                      <IconButton
-                        variant="outline"
-                        colorScheme="white"
-                        aria-label="Send email"
-                        icon={<AiOutlineEye />}
-                        onClick={() => {
-                          window.open("https://spotify-clone-1s.netlify.app/", "_blank");
-                        }}
-                      />
-              </Flex>
-                
-                <Box >
-                  <Box  textAlign={'left'} >
-                  <Text><b>Features:  </b>  Login/Logout, Oauth, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</Text>
-                  <Text><b>Techstack: </b> React, Redux, Chakra-UI, Styled-Component, Framer-motion, Node Js, Express, Mongo DB, Mongoose </Text>
-                  </Box>
-
-                  <Box  textAlign={'left'}>
-                  <Text><b>Areas of Responsibility:</b> <br/>
-               
-                    <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
-                    <li>Added filter functionality, page linking, and animations.</li>
-                    <li>Architected a powerful backend system for efficient data management</li>
-                    </Text>
-                  </Box>
-                 
-               
-                
-                  </Box>  
-            </Box>
-
-            
-        </div>
-
-
-
-
-{/* ! ***************************************************** */}
 
         <div data-aos="zoom-in">
         
@@ -153,6 +85,77 @@ function Projects() {
 
             
         </div>
+
+        <div data-aos="zoom-in">
+            <Box>
+            <img src={require("../utils/home1.png")} alt="spotify"  />
+            <Box className='project-info'>
+            <Heading as={'h4'}>Spotify <span>Clone</span> </Heading> <br />
+            <Text  m={'auto'} fontSize='2xl' ><b> Spotify is a digital music service that gives you access to millions of songs.</b></Text>
+              <br/>
+            <Text  m={'auto'} fontSize='l'><b>Group Project :</b> 4 Collaborators </Text>   
+            <Text> <b>Duration :</b> 05 Days</Text>
+           
+            </Box>
+
+
+            </Box>
+            {/* buttons */}
+
+            <Box >
+            <Flex className="social-media" justify={'space-around'} alignItems={'center'} m={'-20px 0 -15px 0'} >
+                    
+                    <IconButton
+                        variant="outline"
+                        colorScheme="white"
+                        aria-label="Send email"
+                        borderRadius={'2px'}
+          
+                        icon={<BsGithub />}
+                        
+                        onClick={() => {
+                          window.open("https://github.com/Rutu-11/Spotify-clone", "_blank");
+                        }}
+                      />
+                        <Heading as={'h4'}>Spotify <span>Clone</span> </Heading>
+                      <IconButton
+                        variant="outline"
+                        colorScheme="white"
+                        aria-label="Send email"
+                        icon={<AiOutlineEye />}
+                        onClick={() => {
+                          window.open("https://spotify-clone-1s.netlify.app/", "_blank");
+                        }}
+                      />
+              </Flex>
+                
+                <Box >
+                  <Box  textAlign={'left'} >
+                  <Text><b>Features:  </b>  Login/Logout, Oauth, SignUp, Search, Filter, Play, and Pause functionality has been implemented.</Text>
+                  <Text><b>Techstack: </b> React, Redux, Chakra-UI, Styled-Component, Framer-motion, Node Js, Express, Mongo DB, Mongoose </Text>
+                  </Box>
+
+                  <Box  textAlign={'left'}>
+                  <Text><b>Areas of Responsibility:</b> <br/>
+               
+                    <li>Built a fully responsive Home page and Search page which closely resemble the user interface of Spotify.</li>
+                    <li>Added filter functionality, page linking, and animations.</li>
+                    <li>Architected a powerful backend system for efficient data management</li>
+                    </Text>
+                  </Box>
+                 
+               
+                
+                  </Box>  
+            </Box>
+
+            
+        </div>
+
+
+
+
+{/* ! ***************************************************** */}
 
         <div data-aos="zoom-in">
         

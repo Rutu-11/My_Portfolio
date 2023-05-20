@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.3d5a9657.css",
-    "main.js": "/My_Portfolio/static/js/main.ea922871.js",
+    "main.css": "/My_Portfolio/static/css/main.33fc48c2.css",
+    "main.js": "/My_Portfolio/static/js/main.cbc84b92.js",
     "static/media/youtube-clone.png": "/My_Portfolio/static/media/youtube-clone.014013b90238ecf65c6d.png",
     "static/media/home1.png": "/My_Portfolio/static/media/home1.b461fa5b3f0ce3a96dcc.png",
     "static/media/Flipkart-clone.png": "/My_Portfolio/static/media/Flipkart-clone.d215fff265ebaa0e7275.png",
@@ -9,11 +9,11 @@
     "static/media/Portfolio.png": "/My_Portfolio/static/media/Portfolio.2a275c4b6f07155524fc.png",
     "static/media/RutuLinkedIn.jpg": "/My_Portfolio/static/media/RutuLinkedIn.cd868269b56becb752ae.jpg",
     "index.html": "/My_Portfolio/index.html",
-    "main.3d5a9657.css.map": "/My_Portfolio/static/css/main.3d5a9657.css.map",
-    "main.ea922871.js.map": "/My_Portfolio/static/js/main.ea922871.js.map"
+    "main.33fc48c2.css.map": "/My_Portfolio/static/css/main.33fc48c2.css.map",
+    "main.cbc84b92.js.map": "/My_Portfolio/static/js/main.cbc84b92.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d5a9657.css",
-    "static/js/main.ea922871.js"
+    "static/css/main.33fc48c2.css",
+    "static/js/main.cbc84b92.js"
   ]
 }
