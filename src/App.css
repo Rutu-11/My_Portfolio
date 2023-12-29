@@ -860,7 +860,8 @@ about-info ul li svg{
     font-size: 35px;
   }
   .contact-section{
-    flex-direction: column;
+    /* flex-direction: column; */
+    border:2px solid white ;
     align-items:center;
   }
   .contact>div>div{

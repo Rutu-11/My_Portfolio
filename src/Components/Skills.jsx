@@ -132,7 +132,7 @@ function Skills() {
             <Text>Sass</Text>
         </Flex>
        
-        {/* <Flex data-aos="zoom-in">
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
             alt="tailwind"
@@ -140,31 +140,31 @@ function Skills() {
         
             <Text>Telwind</Text>
         </Flex>
-           */}
-        
-        {/* <Flex data-aos="zoom-in">
-        <img
-            src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg"
-            alt="framer"
-          />
-            <Text>Framer</Text>
-        </Flex> */}
           
-        {/* <Flex data-aos="zoom-in">
+        
+        <Flex data-aos="zoom-in">
+        <img
+            src="https://www.jing.fm/clipimg/detail/432-4325193_debugger-for-electron-electron-js-logo-png.png"
+            alt="Electron"
+          />
+            <Text>Electron JS</Text>
+        </Flex>
+          
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
             alt="git"
           />
             <Text>Git</Text>
-        </Flex> */}
+        </Flex>
           
-        {/* <Flex data-aos="zoom-in">
+        <Flex data-aos="zoom-in">
         <img
             src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
             alt="postman"
           />
             <Text>Postman</Text>
-        </Flex>  */}
+        </Flex> 
 
         <Flex data-aos="zoom-in">
         <img

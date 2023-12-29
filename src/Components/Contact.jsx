@@ -36,9 +36,9 @@ function Contact() {
       </Heading>
       <Flex w={"100%"}  className="contact-section">
         <Box className="contact-icons">
-          <Heading as={"h4"}>
+          {/* <Heading as={"h4"}>
             HIRE <span>ME</span>{" "}
-          </Heading>
+          </Heading> */}
 
           <Box>
             <IconButton
@@ -122,9 +122,9 @@ function Contact() {
         </Box>
 
         <Box className="contact-form">
-          <Heading as={"h4"} textAlign={"center"}>
+          {/* <Heading as={"h4"} textAlign={"center"}>
             GET IN <span>TOUCH</span>{" "}
-          </Heading>
+          </Heading> */}
           <form action="https://formspree.io/f/mayzpvgr"  onSubmit={handleSubmit} method="POST"  >
           <FormControl>
             <FormLabel>Name</FormLabel>
