@@ -131,7 +131,7 @@ function Home() {
         >
           <Image
            
-            src={require("../utils/RutuLinkedIn.jpg")}
+            src={require("../utils/myImage.png")}
             alt=""
           />
         </Flex>
