@@ -53,8 +53,7 @@ function Home() {
           <Cursor />
         </Heading>
         <Text>
-        A highly skilled and enthusiastic Full Stack Web Developer proficient in cutting-edge technologies such as React JS, Next JS, Redux, Express, MongoDB, Mongoose and other industry-leading libraries and frameworks. 
-        </Text>
+        Frontend Developer with 3 years of experience in React, Next.js, TypeScript, Node.js and Tailwind. Skilled in building scalable UIs, integrating APIs, and enhancing workflows with Generative AI.        </Text>
 
         <Box className="social-media">
           <IconButton
