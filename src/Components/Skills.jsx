@@ -138,13 +138,13 @@ function Skills() {
             alt="tailwind"
           />
         
-            <Text>Telwind</Text>
+            <Text>Tailwind CSS</Text>
         </Flex>
           
         
         <Flex data-aos="zoom-in">
         <img
-            src="https://www.jing.fm/clipimg/detail/432-4325193_debugger-for-electron-electron-js-logo-png.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg"
             alt="Electron"
           />
             <Text>Electron JS</Text>
