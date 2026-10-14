@@ -14,7 +14,11 @@ import { BsGithub, BsDownload } from "react-icons/bs";
 import { AiFillPhone, AiOutlineEye } from "react-icons/ai";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import resume from "../utils/Rutuja_Dhekolkar_Resume.pdf";
+const resumeUrl =
+  "https://drive.google.com/file/d/1sqhRWdfkSSIfVOImUwjNqpt7vn9i3Hoa/view?usp=sharing";
+
+const resumeDownloadUrl =
+  "https://drive.google.com/uc?export=download&id=1sqhRWdfkSSIfVOImUwjNqpt7vn9i3Hoa";
 
 function Home() {
   const text = useTypewriter({
@@ -26,7 +30,7 @@ function Home() {
     <Flex
       id="/home"
       className="home"
-      
+
       justifyContent={[
         "center",
         "center",
@@ -36,25 +40,25 @@ function Home() {
       ]}
     >
       <Box
-       
+
         className="home-content"
-      
+
         textAlign={["center", "center", "center", "left", "left"]}
-        
+
       >
         <Heading as="h3" className="heading">
           Hello, My name is
         </Heading>
         <Heading as="h1" className="heading">
-          Rutuja Dhekolkar
+          Rutu Dhekolkar
         </Heading>
         <Heading as="h3" className="heading job-role">
           I am a<span>{text[0]}</span>
           <Cursor />
         </Heading>
         <Text>
-        Frontend Developer with 3 years of experience in React, Next.js, TypeScript, Node.js and Tailwind. Skilled in building scalable UIs, integrating APIs, and enhancing workflows with Generative AI.        </Text>
-
+          Software Engineer with 4+ years of experience in React.js, Next.js, TypeScript, JavaScript, Node.js, GraphQL, and REST APIs. Skilled in building scalable applications, API integration, performance optimization, observability, and AI-assisted development.
+        </Text>
         <Box className="social-media">
           <IconButton
             variant="outline"
@@ -96,7 +100,7 @@ function Home() {
           </a>
         </Box>
 
-        <a href={resume} target="_blank" >
+        <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
           <Button
             colorScheme="#fb641b"
             rightIcon={<AiOutlineEye color="white" className="icon" />}
@@ -107,11 +111,12 @@ function Home() {
           </Button>
         </a>
 
-        <a href={resume} download="Rutuja_Dhekolkar_Resume">
+        {/* Download Resume */}
+        <a href={resumeDownloadUrl}>
           <IconButton
             className="downloadBtn"
             colorScheme="#fb641b"
-            aria-label="Send email"
+            aria-label="Download resume"
             icon={<BsDownload className="icon" />}
           />
         </a>
@@ -120,17 +125,17 @@ function Home() {
       <Box
         w={["250px", "350px", "450px", "420px", "470px"]}
         h={["250px", "350px", "450px", "420px", "470px"]}
-        
+
         margin={"auto"}
       >
         <Flex
           w="85%"
           h={"85%"}
           className="home-image"
-          
+
         >
           <Image
-           
+
             src={require("../utils/myImage.png")}
             alt=""
           />
