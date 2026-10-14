@@ -21,12 +21,17 @@ import resume from "../utils/Rutuja_Dhekolkar_Resume.pdf";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
 import { useForm, ValidationError } from '@formspree/react';
+const resumeUrl =
+  "https://drive.google.com/file/d/1sqhRWdfkSSIfVOImUwjNqpt7vn9i3Hoa/view?usp=sharing";
+
+const resumeDownloadUrl =
+  "https://drive.google.com/uc?export=download&id=1sqhRWdfkSSIfVOImUwjNqpt7vn9i3Hoa";
 
 function Contact() {
 
   const [state, handleSubmit] = useForm("mayzpvgr");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+    return <p>Thanks for joining!</p>;
   }
 
   return (
@@ -34,7 +39,7 @@ function Contact() {
       <Heading as={"h1"} textAlign={"center"}>
         CONTACT <span>ME</span>
       </Heading>
-      <Flex w={"100%"}  className="contact-section">
+      <Flex w={"100%"} className="contact-section">
         <Box className="contact-icons">
           {/* <Heading as={"h4"}>
             HIRE <span>ME</span>{" "}
@@ -72,7 +77,7 @@ function Contact() {
                 BsGithub
               />
             </a>
-            <b>rutujadhekolkar97@gmail</b>
+            <b>rutujadhekolkar11@gmail</b>
           </Box>
 
           <Box>
@@ -98,8 +103,8 @@ function Contact() {
                 window.open("https://github.com/Rutu-11", "_blank");
               }}
             />
-         
-            <a href={resume}>
+
+            <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
               <Button
                 colorScheme="#fb641b"
                 rightIcon={<AiOutlineEye color="white" className="icon" />}
@@ -110,11 +115,11 @@ function Contact() {
               </Button>
             </a>
 
-            <a href={resume} download="Resume">
+            <a href={resumeDownloadUrl}>
               <IconButton
                 className="downloadBtn"
                 colorScheme="#fb641b"
-                aria-label="Send email"
+                aria-label="Download resume"
                 icon={<BsDownload className="icon" />}
               />
             </a>
@@ -125,66 +130,66 @@ function Contact() {
           {/* <Heading as={"h4"} textAlign={"center"}>
             GET IN <span>TOUCH</span>{" "}
           </Heading> */}
-          <form action="https://formspree.io/f/mayzpvgr"  onSubmit={handleSubmit} method="POST"  >
-          <FormControl>
-            <FormLabel>Name</FormLabel>
-            <Input
-            id="name"
-      
-            name="name"
-              type="text"
-              focusBorderColor="orange.600"
-              placeholder="Enter Name"
-              required
-              
-            />
-            <FormLabel>Email address</FormLabel>
-            <Input
-             id="email"
-             type="email" 
-             name="email"
-              focusBorderColor="orange.600"
-              placeholder="Enter Email"
-              required
-            />
-            <FormLabel>Contact No.</FormLabel>
-            <Input
-           id="phone"
-           
-           name="phone"
-              type="number"
-              focusBorderColor="orange.600"
-              placeholder="Enter Contact"
-              required
-            />
-             <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
-            <FormLabel>Message</FormLabel>
-            <Textarea
-           
-           id="message"
-        name="message"
-              placeholder="Enter Your Message"
-              focusBorderColor="orange.600"
-              
-            />
-            <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
-      />
-            <Input
-              mt={"20px"}
-              className="send"
-              type="submit"
-              focusBorderColor="orange.600"
-              value="Send"
-              disabled={state.submitting}
-            />
-          </FormControl>
+          <form action="https://formspree.io/f/mayzpvgr" onSubmit={handleSubmit} method="POST"  >
+            <FormControl>
+              <FormLabel>Name</FormLabel>
+              <Input
+                id="name"
+
+                name="name"
+                type="text"
+                focusBorderColor="orange.600"
+                placeholder="Enter Name"
+                required
+
+              />
+              <FormLabel>Email address</FormLabel>
+              <Input
+                id="email"
+                type="email"
+                name="email"
+                focusBorderColor="orange.600"
+                placeholder="Enter Email"
+                required
+              />
+              <FormLabel>Contact No.</FormLabel>
+              <Input
+                id="phone"
+
+                name="phone"
+                type="number"
+                focusBorderColor="orange.600"
+                placeholder="Enter Contact"
+                required
+              />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
+              <FormLabel>Message</FormLabel>
+              <Textarea
+
+                id="message"
+                name="message"
+                placeholder="Enter Your Message"
+                focusBorderColor="orange.600"
+
+              />
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
+              <Input
+                mt={"20px"}
+                className="send"
+                type="submit"
+                focusBorderColor="orange.600"
+                value="Send"
+                disabled={state.submitting}
+              />
+            </FormControl>
           </form>
         </Box>
       </Flex>
